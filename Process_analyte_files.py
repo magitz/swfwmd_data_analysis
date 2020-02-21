@@ -1,6 +1,19 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
 
+##################################################################
+# Author: Matt Gitzendanner
+# February 20, 2020
+#
+# This script takes two files, one containing the Chlorophyll A
+# measurements and one containing the Nitrate measurements. It
+# finds the dates where both chemicals were measured and adds
+# the Nitrate measurement at the end of the line in the
+# chlorophyll A data. It then outputs one file with the data
+# from all the sites.
+# ##############################################################
+
+
 # %%
 import glob
 import pandas as pd
